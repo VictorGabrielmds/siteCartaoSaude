@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/siteCartaoSaude/static/css/main.deae36d5.css",
+    "main.css": "/siteCartaoSaude/static/css/main.8ec1f1fa.css",
     "main.js": "/siteCartaoSaude/static/js/main.5115aadd.js",
     "static/js/453.69d7d8a2.chunk.js": "/siteCartaoSaude/static/js/453.69d7d8a2.chunk.js",
     "static/media/equoterapiareijesus.svg": "/siteCartaoSaude/static/media/equoterapiareijesus.79582d3403b374808af9.svg",
@@ -107,12 +107,12 @@
     "static/media/imugi.svg": "/siteCartaoSaude/static/media/imugi.7d59e8cb7c0767a9c083.svg",
     "static/media/sorrisofeliz.svg": "/siteCartaoSaude/static/media/sorrisofeliz.b8d20004304ff6f04552.svg",
     "index.html": "/siteCartaoSaude/index.html",
-    "main.deae36d5.css.map": "/siteCartaoSaude/static/css/main.deae36d5.css.map",
+    "main.8ec1f1fa.css.map": "/siteCartaoSaude/static/css/main.8ec1f1fa.css.map",
     "main.5115aadd.js.map": "/siteCartaoSaude/static/js/main.5115aadd.js.map",
     "453.69d7d8a2.chunk.js.map": "/siteCartaoSaude/static/js/453.69d7d8a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.deae36d5.css",
+    "static/css/main.8ec1f1fa.css",
     "static/js/main.5115aadd.js"
   ]
 }
