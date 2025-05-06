@@ -1,0 +1,96 @@
+.ScroolButtons-wrapper {
+  display: flex;
+  align-items: center;
+}
+.ScroolButtons{
+  position: relative;
+  display: flex;
+  gap: 8px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin: 0 16px;
+  margin-bottom: 0;
+  height: auto;
+  scrollbar-width: none;       /* Firefox */
+  -ms-overflow-style: none;    /* Internet Explorer/Edge */
+}
+.ScroolButtons::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.ScroolButtons>button{
+  width: 100%;
+  white-space: nowrap;
+  padding: 12px 26px;
+  border-radius: 8px;
+  border: 0;
+  background-color: #fff;
+  color: #1E1E1E;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.ScroolButtons>button:disabled{
+  opacity: 0.4;
+  cursor:inherit;
+}
+.ScroolButtons>button:disabled:hover{
+  background-color: #fff;
+  color: #1E1E1E;
+}
+.ScroolButtons>button:disabled.active{
+  background-color: #fff;
+  color: #1E1E1E;
+}
+
+.ScroolButtons>button .active{
+  background-color: #275BF4;
+  color: #fff;
+  transform: translateX(10px);
+}
+
+.ScroolButtons>button:hover{
+  background-color: #275BF4;
+  color: #fff;
+}
+.ScroolButtons>button.active{
+  background-color: #275BF4;
+  color: #fff;
+}
+
+.scroll-btn{
+  position: absolute;
+  z-index: 999;
+  padding: 16px;
+}
+.scroll-btn button{
+  background-color: #fff;
+  border: 0px;
+  padding: 8px;
+  border-radius: 999px;
+  display: flex;
+  cursor: pointer;
+}
+
+.scroll-btn.direita{
+  right: 0px;
+  padding-left: 50px;
+  background: #F2F2F7;
+  background: -webkit-linear-gradient(-90deg, rgba(242, 242, 247, 1) 0%, rgba(242, 242, 247, 0) 55%);
+  background: -moz-linear-gradient(-90deg, rgba(242, 242, 247, 1) 0%, rgba(242, 242, 247, 0) 55%);
+  background: linear-gradient(-90deg, rgba(242, 242, 247, 1) 0%, rgba(242, 242, 247, 0) 55%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#F2F2F7", endColorstr="#F2F2F7", GradientType=0);
+}
+.scroll-btn.esquerda{
+  left: 0px;
+  padding-right: 50px;
+  background: -webkit-linear-gradient(90deg, rgba(242, 242, 247, 1) 45%, rgba(242, 242, 247, 0) 100%);
+  background: -moz-linear-gradient(90deg, rgba(242, 242, 247, 1) 45%, rgba(242, 242, 247, 0) 100%);
+  background: linear-gradient(90deg, rgba(242, 242, 247, 1) 45%, rgba(242, 242, 247, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#F2F2F7", endColorstr="#F2F2F7", GradientType=1);
+}
+
+@media only screen and (max-width: 600px) {
+  .scroll-btn {
+    display: none;
+  }
+}

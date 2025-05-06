@@ -1,0 +1,35 @@
+.unity-div{
+  display: grid;
+  text-align: left;
+}
+.unity-div>h4{
+  text-transform: capitalize;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.unity-div button{
+  background-color: #F2F2F7;
+  border: none;
+  border-radius: 16px;
+  padding: 16px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.unity-div button .icon{
+  color: #275BF4;
+}
+
+.unity-div-buttons{
+  display: grid;
+  gap: 8px;
+  padding: 0 16px;
+}
+.unity-div-buttons > div {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}

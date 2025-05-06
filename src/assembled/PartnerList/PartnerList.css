@@ -1,0 +1,33 @@
+.partner-list{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 16px;
+  margin: 16px 0;
+  padding-bottom: 16px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  max-height: 65vh;
+  scrollbar-width: thin;             /* Firefox */
+  scrollbar-color: #888 #f1f1f1; 
+}
+
+/* Chrome, Edge, Safari */
+.partner-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.partner-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.partner-list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.partner-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

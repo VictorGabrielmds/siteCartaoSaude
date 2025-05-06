@@ -1,0 +1,11 @@
+.Header{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+
+.Header img{
+  height: 40px;
+  padding: 16px;
+}
